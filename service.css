@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    width: 100%;
+    background: url(https://media.istockphoto.com/id/1371310881/vector/light-blue-turquoise-color-gradient-defocused-blurred-motion-abstract-background-vector.jpg?s=612x612&w=0&k=20&c=zBkkyu7Jjmjkvnc1AmUDJekeP_yv2Q_dY2cESoqWcQ0=);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 5px;
+    padding: 10px;
+}
+
+.Monitoring-container {
+    border: 6px solid rgb(0, 0, 128);
+    background: rgba(113, 25, 14, 0.4);
+    box-shadow: inset 120px 70px 250px rgb(0, 0, 0), inset -120px -100px 250px rgb(0, 0, 190);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 70px auto;
+    margin-bottom: 5px;
+    width: 350px;
+}
+
+.Monitoring-label {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+/*.measurement-item,*/
+div1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: purple;
+}
+
+div2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+}
+
+.sodium,
+.potassium,
+.chloride {
+    font-size: 18px;
+    color: white;
+    /* Adjust color as needed */
+}
+
+.sodium {
+    color: blue;
+}
+
+.potassium {
+    color: green;
+}
+
+.chloride {
+    color: red;
+}
+
+.start-button {
+    margin-top: 20px;
+    padding: 10px 120px;
+    font-size: 20px;
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.chart {
+    width: calc(33.33% - 20px);
+    min-width: 350px;
+    margin: 2px;
+    padding: 10px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 5px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+canvas {
+    width: 100%;
+}
